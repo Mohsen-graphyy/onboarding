@@ -1,0 +1,11 @@
+@import "component/main";
+@import "base/main";
+
+body {
+  margin: 0;
+  direction: ltr;
+  scroll-behavior: smooth;
+}
+li {
+  list-style: none;
+}

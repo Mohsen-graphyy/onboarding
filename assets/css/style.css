@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Playfair+Display&family=Prompt:wght@100;200;300&display=swap");
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-05 {
+  height: 50%;
+}
+
+.bg-gradient-emerald-to-orange {
+  background: #22c1c3;
+  background: -webkit-gradient(linear, left top, right top, from(#22c1c3), to(#fdbb2d));
+  background: linear-gradient(90deg, #22c1c3 0%, #fdbb2d 100%);
+}
+
+.w-96 {
+  width: 18rem;
+  /* 256px */
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  /* 20px */
+  padding-right: 1.25rem;
+  /* 20px */
+}
+
+.rounded-b-3xl {
+  border-bottom-right-radius: 1.5rem;
+  /* 24px */
+  border-bottom-left-radius: 1.5rem;
+  /* 24px */
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.font-bold {
+  font-weight: 900;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  /* 30px */
+  line-height: 2.25rem;
+  /* 36px */
+}
+
+.w-10 {
+  width: 2.5rem;
+  /* 40px */
+}
+
+.w-3 {
+  width: 0.75rem;
+  /* 12px */
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.bg-green {
+  background-color: #059669;
+}
+
+.bg-green-lighten {
+  background-color: #09de9a;
+}
+
+.bg-gray {
+  background-color: #6b7280;
+}
+
+.bg-gray-100 {
+  background-color: #e1e3e8;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.border-none {
+  border-style: none;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.py-2 {
+  padding: 0.8rem;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mt-10 {
+  margin-top: 1.75rem;
+}
+
+.text-green-400 {
+  color: #09de9a;
+}
+
+.text-gray-500 {
+  color: #64748b;
+}
+
+.w-8 {
+  width: 1.6rem;
+  /* 12px */
+}
+
+.h-8 {
+  height: 1.6rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
+
+.p-3 {
+  padding: 0.7rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+  /* 8px */
+}
+
+.bg-w {
+  background-color: #fff;
+}
+
+.w-10 {
+  width: 7.5rem;
+  /* 40px */
+}
+
+.h-10 {
+  height: 7.5rem;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.flex-warp {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gap-4 {
+  gap: 0.5rem;
+}
+
+.gap-10 {
+  gap: 1rem;
+}
+
+.items-start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.text-sm {
+  font-size: 0.5em;
+}
+
+.text-2sm {
+  font-size: 0.7em;
+}
+
+h1 {
+  margin: 0;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.text-md {
+  font-size: 1.0em;
+}
+
+.pb-8 {
+  padding-bottom: 1.6rem;
+}
+
+* {
+  font-family: "Balsamiq Sans", cursive;
+  font-family: "Playfair Display", serif;
+  font-family: "Prompt", sans-serif;
+}
+
+body {
+  margin: 0;
+  direction: ltr;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */

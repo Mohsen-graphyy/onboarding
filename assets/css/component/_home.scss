@@ -1,0 +1,161 @@
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.h-screen {
+  height: 100vh;
+}
+.h-05 {
+  height: 50%;
+}
+.bg-gradient-emerald-to-orange {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+.w-96 {
+  width: 18rem; /* 256px */
+}
+.p-5 {
+  padding: 1.25rem;
+}
+.px-5 {
+  padding-left: 1.25rem; /* 20px */
+  padding-right: 1.25rem; /* 20px */
+}
+.rounded-b-3xl {
+  border-bottom-right-radius: 1.5rem; /* 24px */
+  border-bottom-left-radius: 1.5rem; /* 24px */
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.font-bold {
+  font-weight: 900;
+}
+.text-3xl {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+}
+.w-10{
+    width: 2.5rem; /* 40px */
+}
+.w-3{
+    width: 0.75rem; /* 12px */
+}
+.h-3{
+    height : 0.75rem;
+}
+
+.bg-green{
+    background-color: rgb(5, 150, 105);
+}
+.bg-green-lighten{
+    background-color: rgb(9, 222, 154);
+}
+.bg-gray {
+    background-color: rgb(107, 114, 128);
+}
+.bg-gray-100{
+  background-color: rgb(225, 227, 232);
+}
+.bg-transparent{
+    background-color: transparent!important;
+}
+.border-none{
+    border-style: none;
+}
+.rounded-3xl{
+    border-radius: 1.5rem;
+}
+.py-2{
+    padding: 0.8rem;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.mt-10 {
+    margin-top: 1.75rem;
+}
+.text-green-400{
+  color: rgb(9, 222, 154);;
+}
+.text-gray-500{
+  color : rgb(100,116,139);
+}
+.w-8{
+  width: 1.6rem; /* 12px */
+}
+.h-8{
+  height : 1.6rem;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+.rounded-full{
+  border-radius: 50%;
+}
+.p-3{
+  padding: 0.7rem;
+}
+.rounded-lg{
+  border-radius: 0.5rem; /* 8px */
+}
+.bg-w{
+  background-color: #fff;
+}
+.w-10{
+  width: 7.5rem; /* 40px */
+}
+.h-10{
+  height: 7.5rem;
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+.flex-warp {
+  flex-wrap: wrap;
+}
+.gap-4{
+  gap: 0.5rem;
+}
+.gap-10{
+  gap: 1rem;
+}
+.items-start {
+  align-items: flex-start;
+}
+.object-cover{
+  object-fit: cover;
+}
+.text-sm {
+  font-size: 0.5em;
+}
+.text-2sm{
+  font-size: 0.7em;
+}
+h1{
+  margin: 0;
+}
+.capitalize{
+  text-transform: capitalize;
+}
+.text-md{
+  font-size: 1.0em;
+}
+.pb-8{
+  padding-bottom : 1.6rem;
+}
